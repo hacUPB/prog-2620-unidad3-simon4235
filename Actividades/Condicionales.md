@@ -39,4 +39,20 @@ El Ministerio de Salud clasifica las personas según las etapas del ciclo de vid
 
 ### Imágen:
 
-![Ejercicio 4](../Imagenes/condicionales-e4.png)
+![Ejercicio 4](../Imagenes/condicionales-e4.png)  
+
+### Ejercicio 6
+
+Una compañía de paquetería internacional tiene servicio en algunos países según su zona. El costo por el servicio de paquetería se basa en el peso del paquete y la zona a la que va dirigido. Parte de su política implica que los paquetes con un peso superior a 5 kg no son transportados por seguridad. Usa la siguiente tabla para resolver el problema:  
+
+|Zona|Ubicación|Costo/gramo|  
+|-|-|-|
+|1|América del Norte|$11|  
+|2|América Central|$10|  
+|3|América del Sur|$12|  
+|4|Europa|$24|  
+|5|Asia|$27|  
+
+### Imágen:  
+
+![Ejercicio 6](../Imagenes/Condicionales-e6.png)
