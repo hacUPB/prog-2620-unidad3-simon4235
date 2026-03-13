@@ -54,27 +54,27 @@ distancia_tramo = 0
 distancia_total = 0  
   
 
-def calcular_consumo_tramo:
-    si direccion_viento == "headwind":
-        consumo_tramo = consumo_por_kilometro * distancia_tramo * consumo_headwind
-    sino:
-        si direccion_viento == "tailwind":
-            consumo_tramo = consumo_por_kilometro * distancia_tramo * consumo_tailwind
-        sino:
-            consumo_tramo = consumo_por_kilometro * distancia_tramo
-        fin si
-    fin si
-    devolver consumo_tramo
+def calcular_consumo_tramo:  
+    si direccion_viento == "headwind":  
+        consumo_tramo = consumo_por_kilometro * distancia_tramo * consumo_headwind  
+    sino:  
+        si direccion_viento == "tailwind":  
+            consumo_tramo = consumo_por_kilometro * distancia_tramo * consumo_tailwind  
+        sino:  
+            consumo_tramo = consumo_por_kilometro * distancia_tramo  
+        fin si  
+    fin si  
+    devolver consumo_tramo  
 
-para tramo_actual desde 1 hasta 6:
-    leer distancia_tramo
-    leer direccion_viento
+para tramo_actual desde 1 hasta 6:  
+    leer distancia_tramo  
+    leer direccion_viento  
     
-    consumo_tramo = calcular_consumo_tramo
+    consumo_tramo = calcular_consumo_tramo  
 
-    combustible_actual = combustible_actual - consumo_tramo
-    consumo_total = consumo_total + consumo_tramo
-    distancia_total = distancia_total + distancia_tramo
+    combustible_actual = combustible_actual - consumo_tramo  
+    consumo_total = consumo_total + consumo_tramo  
+    distancia_total = distancia_total + distancia_tramo  
 
     si combustible_actual > reserva_legal:  
         imprimir "Este tramo se puede realizar de manera segura"  
@@ -82,8 +82,8 @@ para tramo_actual desde 1 hasta 6:
         break
     fin si
 
-    imprimir tramo_actual
-    imprimir consumo_tramo
+    imprimir tramo_actual  
+    imprimir consumo_tramo  
     imprimir combustible_actual  
   
 si combustible_actual > reserva_legal:  
