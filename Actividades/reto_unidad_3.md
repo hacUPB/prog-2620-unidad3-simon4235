@@ -4,9 +4,9 @@ Edilberto Contreras
 
 # Fases del proyecto y entregables
 
-# Face 1: Analisis del problema y tabla de datos 
+## Fase 1: Análisis del Problema y Tabla de Datos
 
-## 1. Tablas de entradas (input):
+### 1. Tablas de entradas (input):
 
 |Parametro|Tipo|Unidad|Descripcion|
 |---|---|---|---|
@@ -14,7 +14,7 @@ Edilberto Contreras
 |direccion_viento|String|ND|Condicion del viento: HEADWIND, TAILWIND|
 |combustible_inicial|Float|kg|Combustible inicial del avion|
 
-## 2. Tabla de salidas (output):
+### 2. Tabla de salidas (output):
 
 |Salida|Tipo|Unidad|Descripcion|
 |---|---|---|---|
@@ -24,7 +24,7 @@ Edilberto Contreras
 |tramo_actual|Entero|ND|tramo actual del avion|
 |mensaje al piloto|String|ND|continuar ruta o aterrizar alterno|
 
-## 3. Tabla de constantes y variables de control:
+### 3. Tabla de constantes y variables de control:
 
 |Nombre|Tipo|Unidad|Tipo de dato|Descripcion|
 |---|---|---|---|---|
@@ -36,7 +36,9 @@ Edilberto Contreras
 |consumo_headwind|Constante|%|Float|Aumento de consumo por viento en contra 120%|
 |consumo_tailwind|Constante|%|Float|Disminucion de consumo por viento a favor 83%|
 
-## 4. Pseudocódigo:
+## Fase 2: Diseño de la Solución (Algoritmia)
+
+### Pseudocódigo:
 
 inicio  
 
@@ -96,3 +98,13 @@ imprimir tramo_actual
 imprimir combustible_actual  
 imprimir consumo_total  
 imprimir distancia_total  
+
+## Fase 4: Implementación en Python
+
+### Entregable 4 - Código Fuente Final:
+
+Escenario 1:  
+![Escenario 1](../Imagenes/reto-escenario-1.png)  
+  
+Escenario 2:
+![Escenario 2](../Imagenes/reto-escenario-2.png)
